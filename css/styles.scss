@@ -1,0 +1,40 @@
+body{
+  font-family: 'Titillium Web', sans-serif;
+}
+/*.trim{
+  background-image: url(../images/boba_trim_3.png);
+  height: 80px;
+}*/
+.jumbotron{
+  background-image: url(../images/boba_tea_hero_4.png);
+  background-size: cover;
+  height: 580px;
+}
+/*.jumbotron-caption {
+  bottom: 3rem;
+  z-index: 10;
+}*/
+h1{
+  color: aqua;
+  text-shadow: 2px 2px 5px black;
+
+}
+h4{
+  color: aqua;
+  text-shadow: 2px 2px 5px black;
+}
+.btn-custom{
+  background-color: aqua;
+  box-shadow: 2px 2px 5px black;
+}
+.stop{
+  box-shadow: 2px 2px 5px black;
+}
+.modal-header{
+  background-image: url(../images/boba_trim_3.png);
+  height: 38px;
+}
+.modal-footer{
+  background-image: url(../images/boba_trim_3.png);
+  height: 38px;
+}

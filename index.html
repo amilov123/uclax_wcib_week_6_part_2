@@ -8,7 +8,7 @@
 
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-
+    <link href="https://fonts.googleapis.com/css?family=Titillium+Web&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/styles.css">
 
@@ -18,8 +18,125 @@
   </head>
 
   <body>
+    <div class="container">
+      <div class="row">
+        <div class="col-12 trim">
 
-    <h1>Week 6, Part 1</h1>
+
+        </div>
+
+      </div>
+      <div class="jumbotron text-center">
+        <!--<img src="images/boba_tea_hero_3.png" class="img-fluid"alt="boba image">-->
+
+        <h1>Hello, Boba Obsessives!!!</h1>
+        <hr class="my-4">
+        <p><h2>At Amy's Boba, We Are As Obsessed with Boba As You!!!</h2></p>
+        <p class="lead">
+          <button type="button" class="btn btn-custom" data-toggle="modal" data-target="#freeDrinkModal">Have A Drink On Us</button>
+          <!--<a class="btn btn-custom btn-lg" href="#" role="button">Have A Drink On Us</a>-->
+        </p>
+        <p class="lead"> <h4>Join Our Mailing List And We'll Send You A Voucher For A Free Drink</h4></p>
+
+      </div>
+      <!--Modal-->
+      <div class="modal fade" id="freeDrinkModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-xl" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <!--<h5 class="modal-title" id="exampleModalLabel">Modal title</h5>-->
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <div class="modal-body">
+                <div class="container-fluid">
+                  <div class="row">
+                    <div class="col-md-5"> <img src="images/bubble_tea.gif" class="img-fluid">
+                    </div>
+                    <div class="col-md-5 ml-auto">
+                      <form>
+                        <div class="form-group">
+                          <label for="exampleInputEmail1">Email address</label>
+                          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                          <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                        </div>
+                        <div class="form-group">
+                          <label for="firstName">First Name</label>
+                          <input type="firstName" class="form-control" id="inputFirstName" placeholder="">
+                        </div>
+                        <div class="form-group">
+                          <label for="lastName">LastName</label>
+                          <input type="lastName" class="form-control" id="inputLastName" placeholder="">
+                        </div>
+
+                        <!--<button type="submit" class="btn btn-primary">Submit</button>-->
+                        <!--<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">-->
+                        <button type="button" class="btn btn-custom submit" id="Submit" data-dismiss="modal" data-toggle="modal" data-target="#thanksModal">Submit</button>
+                        <button type="button" class="btn btn-secondary stop" data-dismiss="modal">Close</button>
+
+                        </button>
+                      </form>
+                    </div>
+                  </div>
+                </div>
+
+            </div>
+            <div class="modal-footer">
+              <!--<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>-->
+
+              <!--<button type="button" class="btn btn-primary">Save changes</button>-->
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+    </div>
+      <!--Modal 2-->
+      <!-- Modal -->
+            <div class="modal fade" id="thanksModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal-dialog modal-xl" role="document">
+                <div class="modal-content bubbletea">
+                  <div class="modal-header">
+                    <!--<h5 class="modal-title" id="exampleModalLabel">Modal title</h5>-->
+                    <button type="button" class="btn btn-secondary stop" data-dismiss="modal">Close</button>
+
+                    <!--<button type="button" class="close" data-dismiss="modal" aria-label="Close">-->
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                  </div>
+                  <div class="modal-body">
+                    <div class="container-fluid">
+                      <div class="row">
+                        <div class="col-md-6">
+                        <img src="images/buubletea_cartoon.gif" class="img-fluid" alt="green tea boba">
+                          <!--<img src="images/bubbletea.gif" class="img-fluid" alt="">-->
+                        </div>
+
+                        <div class="col-md-6 ml-auto text-center">
+                          <div class="customMessage"></div>
+
+                          <!--<h2>Thank You!!!<br>
+                        <h2> Enjoy Your Free Drink On Us!!!</h2></p>-->
+                          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+
+                        </div>
+                      </div>
+                    </div>
+
+                  </div>
+                  <div class="modal-footer">
+                    <!--<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Save changes</button>-->
+                  </div>
+                </div>
+              </div>
+            </div>
+  </div>
+
+
 
 	</body>
 
