@@ -5,10 +5,20 @@ body {
   background-image: url(../images/boba_trim_3.png);
   height: 80px;
 }*/
+.container {
+  background-color: #CCD7D9; }
+
+.navbar-custom {
+  background-color: #CCD7D9;
+  box-shadow: 2px 2px 5px black; }
+
+a {
+  color: black; }
+
 .jumbotron {
   background-image: url(../images/boba_tea_hero_4.png);
   background-size: cover;
-  height: 580px; }
+  height: 600px; }
 
 /*.jumbotron-caption {
   bottom: 3rem;
@@ -21,6 +31,9 @@ h1 {
 h4 {
   color: aqua;
   text-shadow: 2px 2px 5px black; }
+
+h5 {
+  color: black; }
 
 .btn-custom {
   background-color: aqua;
@@ -36,3 +49,13 @@ h4 {
 .modal-footer {
   background-image: url(../images/boba_trim_3.png);
   height: 38px; }
+
+.menuandtoons {
+  background-color: #fff; }
+
+.spacer {
+  background-color: #fff;
+  height: 30px; }
+
+.footer {
+  background-color: #fff; }
